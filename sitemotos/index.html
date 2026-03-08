@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MotoRadar Brasil | Notícias de Motos, Preços e Avaliações</title>
+
+    <meta name="description" content="MotoRadar Brasil - Notícias atualizadas sobre motos no Brasil. Avaliações, preços, consumo, lançamentos e comparativos de Honda, Yamaha, Kawasaki, Shineray e outras marcas.">
+
+    <meta name="keywords" content="notícias de motos, motos brasil, preço de motos, lançamento de motos 2026, honda motos, yamaha motos">
+
+    <meta name="author" content="Joaquim">
+
+    <meta property="og:title" content="MotoRadar Brasil - Notícias de Motos">
+    <meta property="og:description" content="Fique por dentro das últimas notícias, preços e avaliações de motos no Brasil.">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>MotoRadar Brasil</h1>
+
+        <p>Notícias, análises e preços das motos mais populares do Brasil</p>
+
+        <input type="text"
+               id="searchInput"
+               placeholder="Pesquisar marca ou notícia (ex: Honda, Dominar 400)"
+               onkeyup="filterMarcas()">
+
+    </header>
+
+    <main>
+
+        <section id="noticias">
+
+            <h2>Últimas Notícias</h2>
+
+            <div class="grid-container">
+
+                <div class="card">
+                    <img src="IMG/honda-cg160-brasil.webp" alt="Honda CG 160 2026">
+                    <h3>Honda CG 160 continua líder de vendas</h3>
+                    <p>A CG 160 segue sendo a moto mais vendida do Brasil em 2026.</p>
+                    <a href="marcas/honda-cg160-lider-vendas.html">Ler notícia</a>
+                </div>
+
+                <div class="card">
+                    <img src="IMG/bajaj-dominar400.jpg" alt="Bajaj Dominar 400">
+                    <h3>Bajaj Dominar 400 vale a pena?</h3>
+                    <p>Analisamos consumo, potência e custo de manutenção da Dominar 400.</p>
+                    <a href="marcas/bajaj-dominar-400-vale-a-pena.html">Ler notícia</a>
+                </div>
+
+                <div class="card">
+                    <img src="IMG/honda-bros160.jpg" alt="Honda Bros 160">
+                    <h3>Honda Bros 160 aguenta viagem?</h3>
+                    <p>Veja se a Bros 160 é uma boa opção para viagens curtas.</p>
+                    <a href="marcas/honda-bros-160-aguenta-viagem.html">Ler notícia</a>
+                </div>
+
+                <div class="card">
+                    <img src="IMG/tenere700.jpg" alt="Yamaha Tenere 700">
+                    <h3>Nova Tenere 700 chega ao Brasil</h3>
+                    <p>A nova geração da Tenere promete dominar o segmento trail.</p>
+                    <a href="marcas/nova-tenere-700-chega-ao-brasil.html">Ler notícia</a>
+                </div>
+
+                <div class="card">
+                    <img src="IMG/kawasaki-versys-300.jpg" alt="Kawasaki versys x300">
+                    <h3>Kawasaki Versys-X 300 é boa para viagem?</h3>
+                    <p>Conhecendo a Kawasaki Versys-X 300.</p>
+                    <a href="marcas/kawasaki-versys-x-300-boa-para-viagem.html">Ler notícia</a>
+                </div>
+
+                <div class="card">
+                    <img src="IMG/bajaj-dominar250.jpg" alt="Bajaj Dominar 250">
+                    <h3>Bajaj Dominar 250 vale a pena?</h3>
+                    <p>A Bajaj Dominar 250 vale a pena em 2026? Veja preço, consumo, desempenho e vantagens da Dominar 250 no Brasil.</p>
+                    <a href="marcas/bajaj-dominar-250-vale-a-pena.html">Ler notícia</a>
+                </div>
+
+                <div class="card">
+                    <img src="IMG/yamaha-crosser150.jpg" alt="Yamaha Crosser 150">
+                    <h3>Consumo da Yamaha Crosser 150 no dia a dia</h3>
+                    <p>Descubra o consumo da Yamaha Crosser 150 no dia a dia. Veja quantos km por litro essa moto faz na cidade e na estrada.</p>
+                    <a href="marcas/consumo-yamaha-crosser-150.html">Ler notícia</a>
+                </div>
+
+                <div class="card">
+                    <img src="IMG/honda-pcx-150.jpg" alt="Honda PCX 150">
+                    <h3>Custo Manutenção Honda PCX 150 Anual: Quanto Custa Manter Sua Scooter?</h3>
+                    <p>custo manutenção Honda PCX 150, manutenção anual PCX 150, custos Honda PCX 150.</p>
+                    <a href="marcas/custo-manutencao-honda-pcx-150.html">Ler notícia</a>
+                </div>
+
+                <div class="card">
+                    <img src="IMG/haojue-dr160.jpg" alt="Haojue dr160">
+                    <h3>Haojue dr260 vale a pena em 2026?</h3>
+                    <p>Descubra se a Haojue DR160 vale a pena em 2026.</p>
+                    <a href="marcas/haojue-dr160-vale-a-pena.html">Ler notícia</a>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="marcas">
+
+            <h2>Marcas de Motos</h2>
+
+            <div class="grid-container">
+
+                <div class="card">
+                    <img src="IMG/Honda-motorcycle-logo.png" alt="Logo Honda motos">
+                    <h3>Honda</h3>
+                    <p>CG 160, Bros 160, Biz 110i, Pop 110i e mais.</p>
+                    <a href="marcas/honda.html">Ver motos</a>
+                </div>
+
+                <div class="card">
+                    <img src="IMG/Yamaha-Motor-Company-Logo-1964-present.png" alt="Logo Yamaha motos">
+                    <h3>Yamaha</h3>
+                    <p>Factor 150, FZ15, Crosser 150, Lander 250.</p>
+                    <a href="marcas/yamaha.html">Ver motos</a>
+                </div>
+
+                <div class="card">
+                    <img src="IMG/959468148700761.Y3JvcCwxMDgwLDg0NCwwLDExNw.png" alt="Logo Shineray motos">
+                    <h3>Shineray</h3>
+                    <p>SBM 250 Trail, Worker 150, Phoenix 50.</p>
+                    <a href="marcas/shineray.html">Ver motos</a>
+                </div>
+
+                <div class="card">
+                    <img src="IMG/logo-suzuki-4096.png" alt="Logo Suzuki motos">
+                    <h3>Suzuki</h3>
+                    <p>V-Strom 650, GSX-S750 e outros modelos.</p>
+                    <a href="marcas/suzuki.html">Ver motos</a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="sobre">
+
+            <h2>Sobre o MotoRadar Brasil</h2>
+
+            <p>
+                O MotoRadar Brasil é um portal independente dedicado a notícias de motos,
+                avaliações de modelos, comparativos e informações sobre preços no Brasil.
+                Nosso objetivo é ajudar motociclistas a escolher a melhor moto para uso
+                diário, viagem ou trabalho.
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>© 2026 MotoRadar Brasil | Criado por Joaquim</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
